@@ -49,7 +49,7 @@ const Register = () => {
           <input
             type="text"
             name="displayName"
-            requerid
+            required
             placeholder="Nome do Usuario"
             value={displayName}
             onChange={(e) => setDisplayName(e.target.value)}
@@ -60,7 +60,7 @@ const Register = () => {
           <input
             type="email"
             name="email"
-            requerid
+            required
             placeholder="E-mail do Usuario"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -71,7 +71,7 @@ const Register = () => {
           <input
             type="password"
             name="password"
-            requerid
+            required
             placeholder="Insira sua senha"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
@@ -82,7 +82,7 @@ const Register = () => {
           <input
             type="password"
             name="confirmPassword"
-            requerid
+            required
             placeholder="Confirme sua senha"
             value={confirmPassword}
             onChange={(e) => setConfirmPassword(e.target.value)}
