@@ -1,8 +1,10 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
+require('dotenv').config()
+
 const firebaseConfig = {
-  apiKey: "AIzaSyCATvLZjYHtEjG1grxnkmkmx_7snru2ORA",
+  apiKey: process.env.API_KEY,
   authDomain: "miniblog-f7949.firebaseapp.com",
   projectId: "miniblog-f7949",
   storageBucket: "miniblog-f7949.appspot.com",
