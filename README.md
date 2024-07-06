@@ -6,4 +6,3 @@ No front end, foram utilizadas as seguintes tecnologias: HTML para a estruturaç
 
 O back end foi implementado utilizando o Firebase da Google, oferecendo um back end robusto e escalável para a aplicação.
 
-O MINIBLOG foi projetado para proporcionar uma experiência de usuário intuitiva e interativa, permitindo a publicação e organização de conteúdos de maneira eficiente e moderna.
