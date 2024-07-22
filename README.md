@@ -26,8 +26,6 @@ Como biblioteca para construção de interfaces de usuário.
 **Firebase Google**
 Utilizado como base de dados, armazenando informações do usuário, validações e autorizações.
 
----
-
 # Preview 
 Abaixo uma pré-visualização do nosso projeto.
 
