@@ -22,8 +22,6 @@ Para funcionalidades interativas e dinâmicas
 
 Como biblioteca para construção de interfaces de usuário.
 
----
-
 # Back-end
 **Firebase Google**
 Utilizado como base de dados, armazenando informações do usuário, validações e autorizações.
