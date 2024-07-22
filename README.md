@@ -4,7 +4,7 @@ Projeto desenvolvido para o 4º semestre do curso de Análise e Desenvolvimento 
 
 Este blog funciona de maneira semelhante ao Instagram, permitindo aos usuários postar fotos com legendas, descrições e hashtags.
 
-No front-end, foram utilizadas as seguintes tecnologias:
+# Front-end
 
 ### HTML
 
@@ -22,7 +22,13 @@ Para funcionalidades interativas e dinâmicas
 
 Como biblioteca para construção de interfaces de usuário.
 
-o back-end foi implementado utilizando o **Firebase** da Google, oferecendo um back end robusto e escalável para a aplicação.
+---
+
+# Back-end
+## Firebase Google
+Utilizado como base de dados, armazenando informações do usuário, validações e autorizações.
+
+---
 
 # Preview 
 Abaixo uma pré-visualização do nosso projeto.
