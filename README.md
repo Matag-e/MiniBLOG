@@ -1,58 +1,76 @@
-# MINI BLOG
+# MiniBlog 📝
 
-Projeto desenvolvido para o 4º semestre do curso de Análise e Desenvolvimento de Sistemas na Uninove.
+O **MiniBlog** é uma aplicação de blog desenvolvida em **React** que permite aos usuários compartilhar momentos através de fotos e textos. O projeto utiliza o **Firebase** como Back-end as a Service (BaaS) para gerenciar autenticação, banco de dados e armazenamento de imagens em tempo real.
 
-Este blog funciona de maneira semelhante ao Instagram, permitindo aos usuários postar fotos com legendas, descrições e hashtags.
+🔗 **[Acesse o projeto online aqui](https://Matag-e.github.io/MiniBLOG/)**
 
-# Front-end
+## ✨ Funcionalidades
 
-### HTML
+*   **Autenticação Completa:** Cadastro e Login de usuários utilizando Firebase Authentication.
+*   **Gerenciamento de Posts (CRUD):**
+    *   **Criar:** Publique novos posts com imagem (URL) e conteúdo.
+    *   **Ler:** Visualize posts no feed principal ou individualmente.
+    *   **Editar:** Atualize o conteúdo dos seus posts existentes.
+    *   **Excluir:** Remova posts através do Dashboard.
+*   **Dashboard do Usuário:** Área exclusiva para gerenciar suas próprias publicações.
+*   **Busca Avançada:** Pesquise posts por tags ou termos específicos.
+*   **Design Responsivo:** Layout adaptável para dispositivos móveis e desktop.
+*   **Dark Mode:** Interface com tema escuro para melhor conforto visual.
 
-para a estruturação das páginas web
+## 🛠️ Tecnologias Utilizadas
 
-### CSS
+### Frontend
+*   **React (Vite):** Biblioteca JavaScript para construção da interface.
+*   **React Router DOM:** Gerenciamento de rotas e navegação SPA.
+*   **CSS Modules:** Estilização componentizada e escopada.
+*   **Context API:** Gerenciamento de estado global (Autenticação).
+*   **Custom Hooks:** Encapsulamento de lógicas complexas (Fetch, Auth, CRUD).
 
-Para a estilização e layout
+### Backend (Firebase)
+*   **Firebase Authentication:** Sistema de login e registro seguro.
+*   **Firestore Database:** Banco de dados NoSQL em tempo real para armazenar posts e dados de usuários.
 
-### JavaScript
+## 🚀 Como Rodar Localmente
 
-Para funcionalidades interativas e dinâmicas
+Siga os passos abaixo para executar o projeto na sua máquina:
 
-### React
+### Pré-requisitos
+*   Node.js instalado.
+*   Uma conta no Firebase e um projeto configurado.
 
-Como biblioteca para construção de interfaces de usuário.
+### Instalação
 
-# Back-end
-**Firebase Google**
-Utilizado como base de dados, armazenando informações do usuário, validações e autorizações.
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/Matag-e/MiniBLOG.git
+    cd miniblog
+    ```
 
-# Preview 
-Abaixo uma pré-visualização do nosso projeto.
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
 
-### Home Page
-![Pagina Inicial](https://imgur.com/aTa7AVh.png)
+3.  **Configure o Firebase:**
+    *   Crie um arquivo `src/firebase/config.js` (baseado no seu projeto do Firebase Console).
+    *   Adicione suas credenciais (API Key, Auth Domain, Project ID, etc.).
+
+4.  **Execute o projeto:**
+    ```bash
+    npm run dev
+    ```
+
+5.  **Acesse:**
+    Abra `http://localhost:5173` no seu navegador.
+
+## 📦 Deploy
+
+O projeto está configurado para deploy automático no GitHub Pages utilizando o pacote `gh-pages`.
+
+```bash
+npm run deploy
+```
 
 ---
 
-### Sobre
-![Sobre](https://imgur.com/iYNeXPM.png)
-
----
-
-### Login
-![Pagina de Login](https://imgur.com/MahXuVj.png)
-
----
-
-### Registro
-![Pagina de Registro](https://imgur.com/d3KIO3z.png)
-
----
-
-### Criar post
-![Criar post](https://imgur.com/gBgOkRa.png)
-
----
-
-### Dashboard
-![Dashboard](https://imgur.com/k6dxPeZ.png)
+Desenvolvido por **Mateus Silva** como parte do curso de ReactJS.
